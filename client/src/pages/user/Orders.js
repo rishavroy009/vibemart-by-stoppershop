@@ -33,9 +33,9 @@ const Orders = () => {
             {orders?.map((o, i) => {
               return (
                 <div className="border shadow">
-                  <table className="table" style={{border:'0.5px solid brown'}} >
+                  <table className="table" style={{border:'0.5px solid brown',overflow:'hidden'}} >
                     <thead>
-                      <tr>
+                      <tr style={{overflow:'hidden'}}>
                         <th scope="col">#</th>
                         <th scope="col">Status</th>
                         <th scope="col">Buyer</th>

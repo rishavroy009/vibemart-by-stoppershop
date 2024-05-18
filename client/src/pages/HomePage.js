@@ -129,14 +129,8 @@ const HomePage = () => {
     handleResize();
   }, []);
   return (
-    <Layout title={"Stopper's Shop"}>
-      {/* banner image */}
-      {/* <img
-        src="/images/banner.png"
-        className="banner-img"
-        alt="bannerimage"
-        width={"100%"}
-      /> */}
+    <Layout title={"Vibe~Mart"}>
+      
       <Slider/>
       {/* banner image */}
       <div className="container-fluid row mt-3 home-page">

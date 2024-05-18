@@ -35,10 +35,10 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <span className="hidtitle">🛍️ STOPPER'S SHOP</span>
+          <span className="hidtitle">🛍️ VIBE~MART</span>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <Link to="/" className="navbar-brand">
-              🛍️ STOPPER'S SHOP
+              🛍️ VIBE~MART
             </Link>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <SearchInput />
